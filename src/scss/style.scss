@@ -227,6 +227,66 @@ section {
     }
 }
 
+.plan {
+
+    &__header {
+        @include header;
+    }
+
+    &__card-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+        gap:1.5rem;
+    }
+    
+    &__card {
+        border: $border;
+        box-shadow: $shadow;
+        border-radius: .5rem;
+        text-align: center;
+        padding:2.5rem 2rem;    
+        
+        &-title {
+            font-size: 2rem;
+            color: $black;
+        }
+
+        & img {
+            height: 20rem;
+        }
+
+        &-price {
+            font-size: 6rem;
+            color: $black;
+            font-weight: bolder;
+
+            & span {
+                font-size: 2.5rem;
+                font-weight: normal;
+            }
+        }
+
+        & ul {
+            padding: 1rem 0;
+            list-style: none;
+
+            & li {
+                padding: 1rem 0;
+                font-size: 1.4rem;
+                color: $light;
+            }
+        }
+    } 
+    
+    &__btn {
+        @include btn;
+
+        &:hover {
+            @include btn-hover;
+        }
+    }
+}
+
 
 
 

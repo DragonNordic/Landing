@@ -191,6 +191,63 @@ section {
   background: #0abde3;
 }
 
+.plan__header {
+  text-align: center;
+  padding-bottom: 2rem;
+  font-size: 5rem;
+  color: #130f40;
+}
+.plan__card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+  gap: 1.5rem;
+}
+.plan__card {
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  text-align: center;
+  padding: 2.5rem 2rem;
+}
+.plan__card-title {
+  font-size: 2rem;
+  color: #130f40;
+}
+.plan__card img {
+  height: 20rem;
+}
+.plan__card-price {
+  font-size: 6rem;
+  color: #130f40;
+  font-weight: bolder;
+}
+.plan__card-price span {
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+.plan__card ul {
+  padding: 1rem 0;
+  list-style: none;
+}
+.plan__card ul li {
+  padding: 1rem 0;
+  font-size: 1.4rem;
+  color: #666;
+}
+.plan__btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.9rem 3rem;
+  font-size: 1.7rem;
+  cursor: pointer;
+  color: #fff;
+  background: #130f40;
+  border-radius: 0.5rem;
+}
+.plan__btn:hover {
+  background: #0abde3;
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
