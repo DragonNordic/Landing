@@ -248,6 +248,49 @@ section {
   background: #0abde3;
 }
 
+.review__header {
+  text-align: center;
+  padding-bottom: 2rem;
+  font-size: 5rem;
+  color: #130f40;
+}
+.review__card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+  gap: 1.5rem;
+}
+.review__card {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+}
+.review__card img {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.review__card h3 {
+  font-size: 2.3rem;
+  color: #130f40;
+  padding-top: 1rem;
+}
+.review__card p {
+  font-size: 1.4rem;
+  color: #666;
+  padding: 1rem 0;
+  line-height: 1.8;
+}
+.review__stars {
+  padding-top: 0.5rem;
+}
+.review__stars i {
+  font-size: 1.7rem;
+  color: #0abde3;
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
