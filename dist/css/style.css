@@ -98,6 +98,9 @@ section {
   background: #130f40;
   border-radius: 0.5rem;
 }
+.home__btn:hover {
+  background: #0abde3;
+}
 
 .services__header {
   text-align: center;
@@ -125,7 +128,7 @@ section {
   color: #130f40;
 }
 .services__card p {
-  font-size: 2.3rem;
+  font-size: 1.4rem;
   color: #666;
 }
 .services__card-btn {
@@ -137,6 +140,55 @@ section {
   color: #fff;
   background: #130f40;
   border-radius: 0.5rem;
+}
+.services__card-btn:hover {
+  background: #0abde3;
+}
+
+.about__header {
+  text-align: center;
+  padding-bottom: 2rem;
+  font-size: 5rem;
+  color: #130f40;
+}
+.about__row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.about__image {
+  flex: 1 1 42rem;
+}
+.about__image img {
+  width: 100%;
+}
+.about__content {
+  flex: 1 1 42rem;
+}
+.about__content h3 {
+  color: #130f40;
+  font-size: 3.5rem;
+  line-height: 1.8;
+}
+.about__content p {
+  color: #666;
+  font-size: 1.4rem;
+  line-height: 1.8;
+  padding: 1rem 0;
+}
+.about__btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.9rem 3rem;
+  font-size: 1.7rem;
+  cursor: pointer;
+  color: #fff;
+  background: #130f40;
+  border-radius: 0.5rem;
+}
+.about__btn:hover {
+  background: #0abde3;
 }
 
 @media (max-width: 991px) {
