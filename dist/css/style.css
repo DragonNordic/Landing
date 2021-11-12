@@ -291,6 +291,66 @@ section {
   color: #0abde3;
 }
 
+.contact__header {
+  text-align: center;
+  padding-bottom: 2rem;
+  font-size: 5rem;
+  color: #130f40;
+}
+.contact__row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.contact__row form {
+  flex: 1 1 42rem;
+  border-radius: 0.5rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  text-align: center;
+}
+.contact__row form h3 {
+  color: #130f40;
+  font-size: 3rem;
+}
+.contact__row form textarea {
+  height: 15rem;
+  resize: none;
+}
+.contact__image {
+  flex: 1 1 42rem;
+}
+.contact__image img {
+  width: 100%;
+}
+.contact__box {
+  width: 100%;
+  margin: 0.8rem 0;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  text-transform: none;
+  font-size: 1.4rem;
+}
+.contact__box:focus, .contact__box:hover {
+  border-color: #0abde3;
+}
+.contact__btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.9rem 3rem;
+  font-size: 1.7rem;
+  cursor: pointer;
+  color: #fff;
+  background: #130f40;
+  border-radius: 0.5rem;
+}
+.contact__btn:hover {
+  background: #0abde3;
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
